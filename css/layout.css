@@ -4,7 +4,7 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-ul, ol, blockquote {
+* {
   box-sizing: border-box;
 }
 
@@ -77,7 +77,7 @@ h3 + blockquote {
 }
 
 p, blockquote, li {
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   margin-top: 29px;
   font-size: 20px;
   line-height: 34px;
@@ -204,7 +204,8 @@ sidebar ul ul li {
   background-color: #fff;
   border-bottom: 1px solid #ccc;
   justify-content: space-between;
-  box-shadow: 0px 2px 4px rgba(0,0,0,.2)
+  box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+  z-index: 100;
 }
 
 .navbar img {
